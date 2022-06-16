@@ -1,11 +1,12 @@
 @import "general";
 @import "nav";
+@import "variables";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 
 h2{
-    color: rgb(20, 20, 20);
+    color: $color;
 }
 
 .subtitulos{
