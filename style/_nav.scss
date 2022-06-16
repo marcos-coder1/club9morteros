@@ -1,0 +1,18 @@
+
+header{
+    background-color: rgb(9, 136, 145);
+    padding: 45px 60px 40px 50px;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            margin-left: 20px;
+            margin-right: 20px;
+            list-style-type: none;
+            a {
+                text-decoration: none;
+                font-size: 32px;
+            }
+        }
+    }
+}

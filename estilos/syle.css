@@ -11,8 +11,24 @@ html {
 }
 
 header {
-  background-color: white;
+  background-color: #098891;
   padding: 45px 60px 40px 50px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 32px;
 }
 
 h2 {
@@ -67,21 +83,6 @@ section h1 {
   color: black;
 }
 
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  font-size: 32px;
-}
-
-header nav ul li {
-  display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 p {
   font-size: medium;
   font-weight: bolder;
@@ -96,10 +97,6 @@ p {
 
 body {
   background-color: white;
-}
-
-ul {
-  list-style: none;
 }
 
 h1 {

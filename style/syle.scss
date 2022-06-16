@@ -1,22 +1,8 @@
+@import "general";
+@import "nav";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
-
-*{
-    padding:0;
-    margin: 0;
-}
-
-html{
-    font-size: 62.5%;
-    font-size: 1em;
-}   
-
-header{
-    background-color: white;
-    padding: 45px 60px 40px 50px;
-}
 
 h2{
     color: rgb(20, 20, 20);
@@ -58,21 +44,6 @@ section h1{
     color: black;
 }
 
-li{
-    list-style-type: none;
-}
-
-a{
-    text-decoration: none;
-    font-size: 32px;
-}
-
-header nav ul li{
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 p{
     font-size: medium;
     font-weight: bolder;
@@ -89,9 +60,7 @@ body{
     background-color: white;
 }
 
-ul{
-    list-style: none;
-}
+
 
 h1{
     color: black;
