@@ -1,1 +1,337 @@
-/* No CSS *//*# sourceMappingURL=syle.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-size: 1em;
+}
+
+header {
+  background-color: #3d9bda;
+  padding: 45px 60px 40px 50px;
+}
+
+h2 {
+  color: #141414;
+}
+
+.subtitulos {
+  font-size: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#tipografia {
+  font-size: 64px;
+  color: #1d647c;
+  font-weight: bolder;
+  margin-left: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #2b3131;
+  color: white;
+  padding: 80px;
+  margin-bottom: 0;
+  margin-top: 400px;
+}
+
+section {
+  background-color: white;
+  font-size: large;
+  color: #020101;
+}
+
+section h1 {
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 32px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+p {
+  font-size: medium;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  padding: 40px;
+  margin: right 400px;
+  margin-left: 60px;
+  margin-top: 60px;
+  border: 10px double #1a6179;
+}
+
+body {
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  color: black;
+  padding: 40px;
+  margin: 80px 40px 80px 40px;
+  border: 20px solid #264dfa;
+  position: relative;
+  top: 40px;
+  left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.parrafoDos {
+  border-radius: 30px;
+}
+
+.nombre {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.escudo {
+  margin-left: 550px;
+}
+
+.cancha {
+  background-image: url(../imagenes/estadio.jpg);
+  background-repeat: round;
+}
+
+.pagin2 {
+  font-size: 40px;
+  color: white;
+}
+
+.video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 40px;
+}
+
+.gym {
+  font-weight: bolder;
+  color: #2345df;
+  padding: 40px 20px 40px 20px;
+  margin-left: 600px;
+}
+
+.importante {
+  color: #258383;
+  font-weight: bolder;
+  font-size: 50px;
+  border: none;
+}
+
+.dep {
+  margin-left: 350px;
+}
+
+.info {
+  color: black;
+  font-size: medium;
+  border: 20px groove #2c728a;
+}
+
+.cele {
+  color: #0c8f8f;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+.pagin {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.escudoNueve {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 10%;
+  margin-left: 40%;
+  border: 20px inset #3f9dbd;
+}
+
+#grilla {
+  width: 100%;
+  height: 100vh;
+}
+
+#grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "nav nav nav" "header header header" "historia historia historia" "footer footer footer";
+  -ms-grid-columns: 20% auto 15%;
+      grid-template-columns: 20% auto 15%;
+  -ms-grid-rows: 2fr 2fr 1fr 2fr;
+      grid-template-rows: 2fr 2fr 1fr 2fr;
+  gap: 10px;
+}
+
+/*declaro areas*/
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+  background-color: #20a7d4;
+}
+
+footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  background-color: grey;
+}
+
+main#historia {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: historia;
+  background-color: white;
+}
+
+nav {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nav;
+  background-color: none;
+}
+
+/*mobile-smartphone*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#grilla {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+  background-color: #20a7d4;
+}
+
+footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  background-color: grey;
+}
+
+main#historia {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: historia;
+  background-color: white;
+}
+
+nav {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nav;
+  background-color: none;
+}
+
+#grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header" "nav" "historia" "footer";
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 2fr 2fr 1fr 2fr;
+      grid-template-rows: 2fr 2fr 1fr 2fr;
+  gap: 5px;
+}
+
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "header header" "nav    nav" "historia historia" "footer footer";
+    -ms-grid-columns: 25% auto;
+        grid-template-columns: 25% auto;
+    -ms-grid-rows: 2fr 2fr 1fr 2fr;
+        grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+  }
+}
+
+/*desktop*/
+@media (min-width: 1024px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "nav nav nav" "header header header" "historia historia historia" "footer footer footer";
+    -ms-grid-columns: 20% auto 15%;
+        grid-template-columns: 20% auto 15%;
+    -ms-grid-rows: 2fr 2fr 1fr 2fr;
+        grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 10px;
+  }
+}
+
+.animac {
+  width: 100vw;
+  height: 100vw;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#19a4d3), to(white));
+  background-image: linear-gradient(to top, #19a4d3, white);
+}
+/*# sourceMappingURL=syle.css.map */
