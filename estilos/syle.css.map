@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../style/syle.scss"
+    ],
+    "names": [],
+    "file": "syle.css"
+}
