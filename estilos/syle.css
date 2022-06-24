@@ -31,6 +31,44 @@ header ul li a {
   font-size: 32px;
 }
 
+/*maps*/
+.btn--twitter {
+  background-color: #55aCee;
+}
+
+.btn--facebook {
+  background-color: #3a5795;
+}
+
+.btn--instagram {
+  background-color: #c25E30;
+}
+
+/*extend*/
+.redSocial, .redsocial--social, .redsocial--nueva {
+  border: 2px solid black;
+  background-color: yellow;
+}
+
+.redsocial--social {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  border-radius: 5px;
+}
+
+.redsocial--nueva {
+  font-size: 30px;
+  color: whitesmoke;
+  border: 3px solid grey;
+}
+
+/*mixin*/
+.my_mixin {
+  height: 50px;
+  width: 500px;
+  background-color: lightblue;
+}
+
 h2 {
   color: black;
 }
